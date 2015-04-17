@@ -1,7 +1,7 @@
 {
   "name": "AtomicSkittles",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom Syntax Theme with a dark background and bright vibrant colors",
   "repository": {
     "type": "git",
