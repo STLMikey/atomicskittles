@@ -175,6 +175,7 @@
 .invalid {
   color: #F8F8F0;
   background-color: #F92672;
+
 }
 
 .invalid.deprecated {
@@ -192,52 +193,52 @@
 //
  .comment { font-style: italic; color: #848484; font-size:.98em; }
  .php .comment .phpdoc { font-weight: bold; color: #848484; background-color:white; font-weight:normal;}
- .php .string, .php .string .keyword { color: #0000ff; font-weight: normal; }
+ .php .string, .php .string .keyword { color: @skittle-yellow; font-weight: normal; }
  .php.source.sql.embedded { color: #0000ff; }
 
- .php.constant.numeric { color: #c23838; }
- .php.constant.language { color: #c37637; font-style:italic; } // null, true, false
- .php.constant.other { color: #5d0000; }
+ .php.constant.numeric { color: @skittle-cyan; }
+ .php.constant.language { color: @skittle-red; font-style:italic; } // null, true, false
+ .php.constant.other { color: @skittle-pink; }
  .php.constant.character.escape { color: #606aa1;} // \n\r
 
- .php.variable, .php.variable.other { color:#268377; font-weight:normal;  }
- .php.variable.other.property { font-weight:normal; color:black; }
+ .php.variable, .php.variable.other { color:@skittle-blue; font-weight:normal;  }
+ .php.variable.other.property { font-weight:normal; color:@skittle-orange; }
 
 .php.punctuation.section.embedded.begin,
-.php.punctuation.section.embedded.end { color: @purple; font-weight: bold; }
+.php.punctuation.section.embedded.end { color: @skittle-white; font-weight: bold; }
 
- .php.entity.name.type.class {color: #3a3a3a; text-decoration: none; } // class name declaration
- .php.entity.name.function { color: #343434; } // function name
- .php.entity.other.inherited-class { color:black; text-decoration: none; }
+ .php.entity.name.type.class {color: @skittle-orange; text-decoration: none; } // class name declaration
+ .php.entity.name.function { color: @skittle-orange; } // function name
+ .php.entity.other.inherited-class { color:@skittle-orange; text-decoration: none; }
 
- .php.support.class { color:#000000; } // your own classes in use
- .php.support.other.namespace { color: black; } // your own namespaces
+ .php.support.class { color:@skittle-orange; } // your own classes in use
+ .php.support.other.namespace { color: @skittle-orange; } // your own namespaces
 
- .php.storage { color: @dark-purple; font-weight: bold; } // common keywords
+ .php.storage { color: @skittle-green; font-weight: bold; } // common keywords
  .php.storage.type {}
  .php.storage.type.function {} // function declaration
  .php.storage.type.class {} // class declaration
  .php.storage.modifier {}
  .php.storage.modifier.extends {} // extends
 // //
- .php.support.function { color: #070060; }
+ .php.support.function { color: @skittle-ltorange; }
  .php.support.function.url {} // url functions
  .php.support.function.curl {} // curl functions
- .php.support.function.basic_functions {} // define
+ .php.support.function.basic_functions {color: @skittle-ltorange;} // define
  .php.support.function.var {} // is_numeric
-.php.support.function.construct { color: @dark-purple; font-weight: bold; } // echo
- .php.meta.array .support.function.construct { color: #2b0087; font-weight: bold; }
- .php.support.constant.ext { color: #5e0c0c; font-weight:normal; } // CURLOPT_POSTFIELDS, etc
- .php.support.other.namespace.use { color: black; } // use Classname
- .php.support.class.builtin { color: #742a86; } // use mysqli
+.php.support.function.construct { color: @skittle-ltorange; font-weight: bold; } // echo
+ .php.meta.array .support.function.construct { color: @skittle-green; font-weight: bold; }
+ .php.support.constant.ext { color: @skittle-green; font-weight:normal; } // CURLOPT_POSTFIELDS, etc
+ .php.support.other.namespace.use { color: @skittle-orange; } // use Classname
+ .php.support.class.builtin { color: @skittle-red; } // use mysqli
 // //
-.php.meta.function-call { color:@green; } // your own functions
+.php.meta.function-call { color:@skittle-orange; } // your own functions
 // .php.meta.function-call.static {} // your own functions called using static
 //
-.php.keyword { color: @cyan; font-weight: bold; }
-.php.keyword.operator { color:@pink; font-weight:normal; }
+.php.keyword { color: @skittle-green; font-weight: bold; }
+.php.keyword.operator { color:@skittle-white; font-weight:normal; }
 .php.keyword.operator.error-control { color: #7d7a7a; font-size:.9em; font-style:italics; } // the @
-.php.keyword.control { color: @cyan; font-weight: bold; } // return, exit, break, case, if, for
+.php.keyword.control { color: @skittle-green; font-weight: bold; } // return, exit, break, case, if, for
 .php.keyword.other.namespace {}
 .php.keyword.other.new {}
 .php.keyword.operator.class {} // Class::static
