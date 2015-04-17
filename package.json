@@ -1,0 +1,11 @@
+{
+  "name": "Skittles",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Atom Syntax Theme with a dark background and bright vibrant colors",
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
