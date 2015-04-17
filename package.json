@@ -1,9 +1,9 @@
 {
-  "name": "Skittles",
+  "name": "AtomicSkittles",
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Atom Syntax Theme with a dark background and bright vibrant colors",
-  "repository": "",
+  "repository": "https://github.com/STLMikey/atomicskittles",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
