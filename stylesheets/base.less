@@ -151,11 +151,11 @@
 }
 
 .entity.name.tag {
-  color: #F92672;
+  color: @melon-berry;
 }
 
 .entity.other.attribute-name {
-  color: #A6E22E;
+  color: @wb-strawberry;
 }
 
 .support.function {
@@ -188,33 +188,105 @@
   color: #AE81FF;
 }
 
+//CSS
+.css.property-name{
+  color: @skittle-ltorange;
+}
+.css.property-value{
+  color: @raspberry;
+}
+.css.numeric{
+  color: @skittle-cyan;
+}
 
 
-//
+//JS
+.js.keyword.operator {
+  color: @skittle-white;
+}
+.js.storage.modifier{
+  color: @kiwi-lime;
+}
+.js.source{
+  color: @pineapple-passionfruit;
+}
+.js.curly.brace{
+  color:@skittle-white;
+}
+.js.brace.round{
+  color:@skittle-white;
+}
+.js.square.brace{
+  color:@skittle-white
+}
+.js.function{
+  color: @kiwi-lime;
+}
+.js.parameters{
+  color: @skittle-white;
+}
+.js.variable{
+  color: @kiwi-lime;
+}
+.js.variable.parameter{
+  color:@strawberry-starfruit;
+}
+.js.string{
+  color: @banana-berry;
+}
+.js.entity.name{
+  color:@mango-tangelo;
+}
+.js.numeric{
+  color: @skittle-cyan;
+}
+.js.support.class{
+  color:@skittle-ltorange;
+}
+.js.support.function{
+  color:@skittle-ltorange;
+}
+.js.terminator{
+  color:@skittle-white;
+}
+.js.delimiter{
+  color: @skittle-white;
+}
+.js.scope.punctuation{
+  color:@skittle-white;
+}
+.js.control{
+  color: @kiwi-lime;
+}
+.js.json{
+  color:@strawberry-starfruit;
+}
+
+//PHP
  .comment { font-style: italic; color: #848484; font-size:.98em; }
  .php .comment .phpdoc { font-weight: bold; color: #848484; font-weight:normal;}
- .php .string, .php .string .keyword { color: @skittle-yellow; font-weight: normal; }
+ .php .string, .php .string .keyword { color: @lemon; font-weight: normal; }
  .php.source.sql.embedded { color: #0000ff; }
 
  .php.constant.numeric { color: @skittle-cyan; }
- .php.constant.language { color: @skittle-red; font-style:italic; } // null, true, false
+ .php.constant.language { color: @strawberry; font-style:italic; } // null, true, false
  .php.constant.other { color: @skittle-pink; }
  .php.constant.character.escape { color: #606aa1;} // \n\r
 
- .php.variable, .php.variable.other { color:@skittle-blue; font-weight:normal;  }
- .php.variable.other.property { font-weight:normal; color:@skittle-orange; }
+ .php.variable, .php.variable.other { color:@grape; font-weight:normal;  }
+ .php.variable.other.property { font-weight:normal; color:@orange; }
 
 .php.punctuation.section.embedded.begin,
 .php.punctuation.section.embedded.end { color: @skittle-white; font-weight: bold; }
 
- .php.entity.name.type.class {color: @skittle-orange; text-decoration: none; } // class name declaration
- .php.entity.name.function { color: @skittle-orange; } // function name
- .php.entity.other.inherited-class { color:@skittle-orange; text-decoration: none; }
+ .php.entity.name.type.class {color: @orange; text-decoration: none; } // class name declaration
+ .php.entity.name.function { color: @orange; } // function name
+ .php.entity.other.inherited-class { color:@orange; text-decoration: none; }
 
- .php.support.class { color:@skittle-orange; } // your own classes in use
- .php.support.other.namespace { color: @skittle-orange; } // your own namespaces
+ .php.support.class { color:@orange; } // your own classes in use
+ .php.support.other.namespace { color: @orange; } // your own namespaces
 
- .php.storage { color: @skittle-green; font-weight: bold; } // common keywords
+ .php.storage { color: @green-apple; font-weight: bold; } // common keywords
  .php.storage.type {}
  .php.storage.type.function {} // function declaration
  .php.storage.type.class {} // class declaration
@@ -226,19 +298,19 @@
  .php.support.function.curl {} // curl functions
  .php.support.function.basic_functions {color: @skittle-ltorange;} // define
  .php.support.function.var {} // is_numeric
-.php.support.function.construct { color: @skittle-ltorange; font-weight: bold; } // echo
- .php.meta.array .support.function.construct { color: @skittle-green; font-weight: bold; }
- .php.support.constant.ext { color: @skittle-green; font-weight:normal; } // CURLOPT_POSTFIELDS, etc
- .php.support.other.namespace.use { color: @skittle-orange; } // use Classname
- .php.support.class.builtin { color: @skittle-red; } // use mysqli
+ .php.support.function.construct { color: @skittle-ltorange; font-weight: bold; } // echo
+ .php.meta.array .support.function.construct { color: @green-apple; font-weight: bold; }
+ .php.support.constant.ext { color: @green-apple; font-weight:normal; } // CURLOPT_POSTFIELDS, etc
+ .php.support.other.namespace.use { color: @orange; } // use Classname
+ .php.support.class.builtin { color: @strawberry; } // use mysqli
 // //
-.php.meta.function-call { color:@skittle-orange; } // your own functions
+.php.meta.function-call { color:@orange; } // your own functions
 // .php.meta.function-call.static {} // your own functions called using static
 //
-.php.keyword { color: @skittle-green; font-weight: bold; }
+.php.keyword { color: @green-apple; font-weight: bold; }
 .php.keyword.operator { color:@skittle-white; font-weight:normal; }
 .php.keyword.operator.error-control { color: #7d7a7a; font-size:.9em; font-style:italics; } // the @
-.php.keyword.control { color: @skittle-green; font-weight: bold; } // return, exit, break, case, if, for
-.php.keyword.other.namespace {  color: @skittle-orange; }
+.php.keyword.control { color: @green-apple; font-weight: bold; } // return, exit, break, case, if, for
+.php.keyword.other.namespace {  color: @orange; }
 .php.keyword.other.new {}
 .php.keyword.operator.class {} // Class::static
