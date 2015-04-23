@@ -1,9 +1,15 @@
 AtomicSkittles
 ============
 
-WORK IN PROGRESS
-
 Bright/Vibrant (Skittles) colors on a dark background.
 
+Taste the rainbow in:
+-PHP
+-Javascript
+-HTML
+-CSS
 
-![A screenshot of your theme]()
+Coming soon:
+-Python
+
+[PHP](phpss.png)
