@@ -17,4 +17,4 @@ Coming soon:
 * = Work in progress
 
 PHP Formatting:  
-![PHP](https://github.com/STLMikey/atomicskittles/blob/master/phpss.png)
+![PHP](https://raw.githubusercontent.com/STLMikey/atomicskittles/master/phpss.png)
