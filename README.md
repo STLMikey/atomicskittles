@@ -12,4 +12,4 @@ Taste the rainbow in:
 Coming soon:
 -Python
 
-[PHP](phpss.png)
+![PHP](phpss.png)
