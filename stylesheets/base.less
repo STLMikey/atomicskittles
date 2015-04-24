@@ -314,3 +314,53 @@
 .php.keyword.other.namespace {  color: @orange; }
 .php.keyword.other.new {}
 .php.keyword.operator.class {} // Class::static
+
+.python .comment .pythondoc { font-weight: bold; color: #848484; font-weight:normal;}
+.python .string, .python .string .keyword { color: @lemon; font-weight: normal; }
+.python.source.sql.embedded { color: #0000ff; }
+
+.python.constant.numeric { color: @skittle-cyan; }
+.python.constant.language { color: @strawberry; font-style:italic; } // null, true, false
+.python.constant.other { color: @skittle-pink; }
+.python.constant.character.escape { color: #606aa1;} // \n\r
+
+.python.variable, .python.variable.other { color:@grape; font-weight:normal;  }
+.python.variable.other.property { font-weight:normal; color:@orange; }
+
+.python.punctuation.section.embedded.begin,
+.python.punctuation.section.embedded.end { color: @skittle-white; font-weight: bold; }
+
+.python.entity.name.type.class {color: @orange; text-decoration: none; } // class name declaration
+.python.entity.name.function { color: @orange; } // function name
+.python.entity.other.inherited-class { color:@orange; text-decoration: none; }
+
+.python.support.class { color:@orange; } // your own classes in use
+.python.support.other.namespace { color: @orange; } // your own namespaces
+
+.python.storage { color: @green-apple; font-weight: bold; } // common keywords
+.python.storage.type {}
+.python.storage.type.function {} // function declaration
+.python.storage.type.class {} // class declaration
+.python.storage.modifier {}
+.python.storage.modifier.extends {} // extends
+// //
+.python.support.function { color: @skittle-ltorange; }
+.python.support.function.url {} // url functions
+.python.support.function.curl {} // curl functions
+.python.support.function.basic_functions {color: @skittle-ltorange;} // define
+.python.support.function.var {} // is_numeric
+.python.support.function.construct { color: @skittle-ltorange; font-weight: bold; } // echo
+.python.meta.array .support.function.construct { color: @green-apple; font-weight: bold; }
+.python.support.constant.ext { color: @green-apple; font-weight:normal; } // CURLOPT_POSTFIELDS, etc
+.python.support.other.namespace.use { color: @orange; } // use Classname
+.python.support.class.builtin { color: @strawberry; } // use mysqli
+// //
+.python.meta.function-call { color:@orange; } // your own functions
+//
+.python.keyword { color: @green-apple; font-weight: bold; }
+.python.keyword.operator { color:@skittle-white; font-weight:normal; }
+.python.keyword.operator.error-control { color: #7d7a7a; font-size:.9em; font-style:italics; } // the @
+.python.keyword.control { color: @green-apple; font-weight: bold; } // return, exit, break, case, if, for
+.python.keyword.other.namespace {  color: @orange; }
+.python.keyword.other.new {}
+.python.keyword.operator.class {} // Class::static
