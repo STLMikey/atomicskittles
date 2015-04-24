@@ -6,15 +6,15 @@ Bright/Vibrant (Skittles) colors on a dark background.
 (Suggestions/Pull Requests welcome)
 
 Taste the rainbow in:  
--PHP  
--Javascript*  
--HTML*  
--CSS*
+- PHP  
+- Python
+- Javascript*  
+- HTML*  
+- CSS*
 
-Coming soon:  
--Python
+Coming soon:
 
-* = Work in progress
+*= Work in progress
 
 PHP Formatting:  
 ![PHP](https://raw.githubusercontent.com/STLMikey/atomicskittles/master/phpss.png)
