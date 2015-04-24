@@ -13,6 +13,8 @@ Taste the rainbow in:
 - CSS*
 
 Coming soon:
+- Ruby
+- SQL
 
 *= Work in progress
 
