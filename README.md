@@ -5,18 +5,18 @@ Bright/Vibrant (Skittles) colors on a dark background.
 
 (Suggestions/Pull Requests welcome)
 
-Taste the rainbow in:  
-- PHP  
+Taste the rainbow in:
+- PHP
 - Python
-- Javascript*  
-- HTML*  
+- Ruby
+- Javascript*
+- HTML*
 - CSS*
 
 Coming soon:
-- Ruby
 - SQL
 
 *= Work in progress
 
-PHP Formatting:  
+PHP Formatting:
 ![PHP](https://raw.githubusercontent.com/STLMikey/atomicskittles/master/phpss.png)

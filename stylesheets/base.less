@@ -364,3 +364,47 @@
 .python.keyword.other.namespace {  color: @orange; }
 .python.keyword.other.new {}
 .python.keyword.operator.class {} // Class::static
+
+.ruby.comment .pythondoc { font-weight: bold; color: #848484; font-weight:normal;}
+.ruby.string, .python .string .keyword { color: @lemon; font-weight: normal; }
+.ruby.source.sql.embedded { color: #0000ff; }
+.ruby.constant.numeric { color: @skittle-cyan; }
+.ruby.constant.language { color: @strawberry; font-style:italic; } // null, true, false
+.ruby.constant.other { color: @skittle-pink; }
+.ruby.constant.character.escape { color: #606aa1;} // \n\r
+.ruby.variable, .python.variable.other { color:@grape; font-weight:normal;  }
+.ruby.variable.other.property { font-weight:normal; color:@orange; }
+.ruby.punctuation.section.embedded.begin,
+.ruby.punctuation.section.embedded.end { color: @skittle-white; font-weight: bold; }
+.ruby.entity.name.type.class {color: @orange; text-decoration: none; } // class name declaration
+.ruby.entity.name.function { color: @orange; } // function name
+.ruby.entity.other.inherited-class { color:@orange; text-decoration: none; }
+.ruby.support.class { color:@orange; } // your own classes in use
+.ruby.support.other.namespace { color: @orange; } // your own namespaces
+.ruby.storage { color: @green-apple; font-weight: bold; } // common keywords
+.ruby.storage.type {}
+.ruby.storage.type.function {} // function declaration
+.ruby.storage.type.class {} // class declaration
+.ruby.storage.modifier {}
+.ruby.storage.modifier.extends {} // extends
+// //
+.ruby.support.function { color: @skittle-ltorange; }
+.ruby.support.function.url {} // url functions
+.ruby.support.function.curl {} // curl functions
+.ruby.support.function.basic_functions {color: @skittle-ltorange;} // define
+.ruby.support.function.var {} // is_numeric
+.ruby.support.function.construct { color: @skittle-ltorange; font-weight: bold; } // echo
+.ruby.meta.array .support.function.construct { color: @green-apple; font-weight: bold; }
+.ruby.support.constant.ext { color: @green-apple; font-weight:normal; } // CURLOPT_POSTFIELDS, etc
+.ruby.support.other.namespace.use { color: @orange; } // use Classname
+.ruby.support.class.builtin { color: @strawberry; } // use mysqli
+// //
+.ruby.meta.function-call { color:@orange; } // your own functions
+//
+.ruby.keyword { color: @green-apple; font-weight: bold; }
+.ruby.keyword.operator { color:@skittle-white; font-weight:normal; }
+.ruby.keyword.operator.error-control { color: #7d7a7a; font-size:.9em; font-style:italics; } // the @
+.ruby.keyword.control { color: @green-apple; font-weight: bold; } // return, exit, break, case, if, for
+.ruby.keyword.other.namespace {  color: @orange; }
+.ruby.keyword.other.new {}
+.ruby.keyword.operator.class {} // Class::static
